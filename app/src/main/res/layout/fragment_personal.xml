@@ -1,0 +1,228 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="fragment.PersonalFragment">
+
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="8dp" />
+        <View
+            android:background="#d3d3d3"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+        <include layout="@layout/fragment_personal_top" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:background="@drawable/personal_top_state"
+        >
+
+        <View
+            android:layout_width="15dp"
+            android:layout_height="match_parent"/>
+
+        <ImageView
+            android:src="@mipmap/personal_list_1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical" />
+
+        <TextView
+            android:text="@string/area"
+            android:layout_width="100dp"
+            android:layout_height="34dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center" />
+
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+
+            <ImageView
+                android:paddingRight="10dp"
+                android:background="@mipmap/personal_go"
+                android:layout_width="15dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="22dp"
+                android:layout_marginEnd="22dp" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="240dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#d3d3d3"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:background="@drawable/personal_top_state"
+        >
+
+        <View
+            android:layout_width="15dp"
+            android:layout_height="match_parent"/>
+
+        <ImageView
+            android:src="@mipmap/personal_list_2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical" />
+
+        <TextView
+            android:text="@string/plant"
+            android:layout_width="100dp"
+            android:layout_height="34dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center" />
+
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+
+            <ImageView
+                android:paddingRight="10dp"
+                android:background="@mipmap/personal_go"
+                android:layout_width="15dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="22dp"
+                android:layout_marginEnd="22dp" />
+
+        </RelativeLayout>
+    </LinearLayout>
+    <View
+        android:layout_width="240dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#d3d3d3"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:background="@drawable/personal_top_state"
+        >
+
+        <View
+            android:layout_width="15dp"
+            android:layout_height="match_parent"/>
+
+        <ImageView
+            android:src="@mipmap/personal_list_3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical" />
+
+        <TextView
+            android:text="@string/information"
+            android:layout_width="100dp"
+            android:layout_height="34dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center" />
+
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+
+            <ImageView
+                android:paddingRight="10dp"
+                android:background="@mipmap/personal_go"
+                android:layout_width="15dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="22dp"
+                android:layout_marginEnd="22dp" />
+
+        </RelativeLayout>
+    </LinearLayout>
+    <View
+        android:layout_width="240dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#d3d3d3"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:background="@drawable/personal_top_state"
+        >
+
+        <View
+            android:layout_width="15dp"
+            android:layout_height="match_parent"/>
+
+        <ImageView
+            android:src="@mipmap/personal_list_4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical" />
+
+        <TextView
+            android:text="@string/setting"
+            android:layout_width="100dp"
+            android:layout_height="34dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center" />
+
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+
+            <ImageView
+                android:paddingRight="10dp"
+                android:background="@mipmap/personal_go"
+                android:layout_width="15dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="22dp"
+                android:layout_marginEnd="22dp" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+    <include layout="@layout/fragment_personal_bottom"/>
+
+</LinearLayout>

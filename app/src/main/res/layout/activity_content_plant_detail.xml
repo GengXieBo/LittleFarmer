@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.lenovo.littlefarmer.PlantDetailActivity"
+    tools:showIn="@layout/activity_plant_detail">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:text="@string/plant"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_marginLeft="80dp"
+                android:layout_centerVertical="true"
+                android:id="@+id/plant_name_text"
+                android:text="@string/plant"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+        <View
+            android:background="#d3d3d3"
+            android:layout_width="300dp"
+            android:layout_height="1dp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:text="@string/plant_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="80dp"
+                android:id="@+id/plant_type_text"
+                android:text="@string/plant_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+        <View
+            android:background="#d3d3d3"
+            android:layout_width="300dp"
+            android:layout_height="1dp"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:text="@string/plant_season"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="80dp"
+                android:id="@+id/plant_season_text"
+                android:text="@string/plant_season"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+        <View
+            android:background="#d3d3d3"
+            android:layout_width="300dp"
+            android:layout_height="1dp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:text="@string/plant_mature_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="100dp"
+                android:id="@+id/plant_mature_time"
+                android:text="@string/plant_mature_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+        <View
+            android:background="#d3d3d3"
+            android:layout_width="300dp"
+            android:layout_height="1dp"/>
+
+        <TextView
+            android:text="作物描述："
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:id="@+id/plant_descripe_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="@string/description" />
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
+
+

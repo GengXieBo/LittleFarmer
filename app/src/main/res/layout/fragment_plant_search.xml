@@ -1,0 +1,21 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_plant_search_re"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="#ffffff" >
+
+    <ImageView
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:background="@mipmap/plant_search"
+        android:layout_width="30dp"
+        android:layout_height="30dp" />
+
+    <TextView
+        android:text="@string/plant_search"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

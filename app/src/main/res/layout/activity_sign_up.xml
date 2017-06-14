@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_sign_up"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/sign_up_bar"/>
+
+    <EditText
+        android:layout_width="260dp"
+        android:layout_height="41dp"
+        android:inputType="textPersonName"
+        android:hint="@string/admin"
+        android:layout_below="@+id/include"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="129dp"
+        android:id="@+id/admin_edit" />
+
+    <EditText
+        android:layout_width="260dp"
+        android:layout_height="41dp"
+        android:inputType="textPersonName"
+        android:hint="@string/pawrd"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/admin_edit"
+        android:layout_marginTop="20dp"
+        android:id="@+id/pwd_edit" />
+
+    <EditText
+        android:layout_width="260dp"
+        android:layout_height="41dp"
+        android:inputType="textPersonName"
+        android:hint="@string/confirmpwd"
+        android:layout_below="@+id/pwd_edit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/confirm_pwd_edit" />
+
+    <Button
+        android:text="@string/sign_up"
+        android:textColor="#ffffff"
+        android:layout_width="305dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/login_button_state"
+        android:layout_below="@+id/confirm_pwd_edit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:id="@+id/sign_up_button" />
+
+
+</RelativeLayout>

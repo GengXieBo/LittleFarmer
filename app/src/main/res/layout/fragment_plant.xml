@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fragment.PlantFragment">
+
+    <RelativeLayout
+        android:padding="3dp"
+        android:id="@+id/fragment_plant_search_re"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ffffff" >
+
+        <ImageView
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:background="@mipmap/plant_search"
+            android:layout_width="28dp"
+            android:layout_height="28dp" />
+
+        <TextView
+            android:text="@string/plant_search"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:background="#d3d3d3"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+    </RelativeLayout>
+
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:layout_below="@id/fragment_plant_search_re"
+        android:id="@+id/swipe_refresh"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        >
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/plant_recyler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <ImageButton
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:src="@mipmap/ic_toolbar_add"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:clickable="true"
+        android:id="@+id/add_imageButton"
+        android:background="@drawable/ripple_button_state"
+        android:stateListAnimator="@drawable/lift_on_touch"
+        />
+
+
+</RelativeLayout>
